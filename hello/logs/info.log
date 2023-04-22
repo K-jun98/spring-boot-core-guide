@@ -1,0 +1,60 @@
+[2023-04-21 00:08:10.104] [INFO ] [main] com.springboot.api.ApiApplication Starting ApiApplication using Java 11.0.19 on Junui-MacBookAir.local with PID 3264 (/Users/jun/Documents/GitHub/bootguide/hello/api/build/classes/java/main started by jun in /Users/jun/Documents/GitHub/bootguide/hello)
+[2023-04-21 00:08:10.107] [INFO ] [main] com.springboot.api.ApiApplication No active profile set, falling back to 1 default profile: "default"
+[2023-04-21 00:08:11.280] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-04-21 00:08:11.287] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:08:11.288] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-04-21 00:08:11.288] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.73]
+[2023-04-21 00:08:11.436] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-04-21 00:08:11.437] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1291 ms
+[2023-04-21 00:08:12.110] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:08:12.126] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-04-21 00:08:12.436] [INFO ] [main] com.springboot.api.ApiApplication Started ApiApplication in 2.712 seconds (JVM running for 3.471)
+[2023-04-21 00:08:29.221] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-04-21 00:08:29.222] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-04-21 00:08:29.224] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-04-21 00:08:29.247] [INFO ] [http-nio-8080-exec-1] com.springboot.api.controller.GetController getName
+[2023-04-21 00:08:56.531] [INFO ] [main] com.springboot.api.ApiApplication Starting ApiApplication using Java 11.0.19 on Junui-MacBookAir.local with PID 3271 (/Users/jun/Documents/GitHub/bootguide/hello/api/build/classes/java/main started by jun in /Users/jun/Documents/GitHub/bootguide/hello)
+[2023-04-21 00:08:56.534] [INFO ] [main] com.springboot.api.ApiApplication No active profile set, falling back to 1 default profile: "default"
+[2023-04-21 00:08:57.754] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-04-21 00:08:57.761] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:08:57.762] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-04-21 00:08:57.762] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.73]
+[2023-04-21 00:08:57.908] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-04-21 00:08:57.908] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1332 ms
+[2023-04-21 00:08:58.581] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:08:58.597] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-04-21 00:08:58.900] [INFO ] [main] com.springboot.api.ApiApplication Started ApiApplication in 2.754 seconds (JVM running for 3.489)
+[2023-04-21 00:09:09.598] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-04-21 00:09:09.598] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-04-21 00:09:09.601] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-04-21 00:09:09.625] [INFO ] [http-nio-8080-exec-1] com.springboot.api.controller.GetController getName 호출
+[2023-04-21 00:09:43.507] [INFO ] [main] com.springboot.api.ApiApplication Starting ApiApplication using Java 11.0.19 on Junui-MacBookAir.local with PID 3275 (/Users/jun/Documents/GitHub/bootguide/hello/api/build/classes/java/main started by jun in /Users/jun/Documents/GitHub/bootguide/hello)
+[2023-04-21 00:09:43.509] [INFO ] [main] com.springboot.api.ApiApplication No active profile set, falling back to 1 default profile: "default"
+[2023-04-21 00:09:44.736] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-04-21 00:09:44.743] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:09:44.744] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-04-21 00:09:44.744] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.73]
+[2023-04-21 00:09:44.894] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-04-21 00:09:44.895] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1347 ms
+[2023-04-21 00:09:45.632] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:09:45.652] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-04-21 00:09:45.993] [INFO ] [main] com.springboot.api.ApiApplication Started ApiApplication in 2.891 seconds (JVM running for 3.65)
+[2023-04-21 00:09:47.212] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-04-21 00:09:47.213] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-04-21 00:09:47.216] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 3 ms
+[2023-04-21 00:09:47.242] [INFO ] [http-nio-8080-exec-1] com.springboot.api.controller.GetController getName 호출
+[2023-04-21 00:11:07.604] [INFO ] [main] com.springboot.api.ApiApplication Starting ApiApplication using Java 11.0.19 on Junui-MacBookAir.local with PID 3280 (/Users/jun/Documents/GitHub/bootguide/hello/api/build/classes/java/main started by jun in /Users/jun/Documents/GitHub/bootguide/hello)
+[2023-04-21 00:11:07.607] [INFO ] [main] com.springboot.api.ApiApplication No active profile set, falling back to 1 default profile: "default"
+[2023-04-21 00:11:08.779] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2023-04-21 00:11:08.786] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:11:08.786] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-04-21 00:11:08.786] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.73]
+[2023-04-21 00:11:08.926] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-04-21 00:11:08.927] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1281 ms
+[2023-04-21 00:11:09.604] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2023-04-21 00:11:09.621] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2023-04-21 00:11:09.930] [INFO ] [main] com.springboot.api.ApiApplication Started ApiApplication in 2.714 seconds (JVM running for 3.435)
+[2023-04-21 00:11:12.780] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-04-21 00:11:12.781] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-04-21 00:11:12.784] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-04-21 00:11:12.812] [INFO ] [http-nio-8080-exec-1] com.springboot.api.controller.GetController getName 호출
