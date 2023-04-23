@@ -1,8 +1,8 @@
 package com.springboot.api.controller;
 
 import com.springboot.api.dto.MemberDto;
-import io.swagger.annotations.ApiParam;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import java.util.Map;
@@ -36,9 +36,9 @@ public class GetController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "성공"),
             @ApiResponse(responseCode = "fail")})
-    public String getRequestParam(@ApiParam(value = "이름", required = true) @RequestParam String name,
-                                  @ApiParam(value = "이메일", required = true)@RequestParam String email,
-                                  @ApiParam(value = "회사", required = true)@RequestParam String organization) {
+    public String getRequestParam(@Parameter(name = "이름", required = true) @RequestParam String name,
+                                  @Parameter(name = "이메일", required = true)@RequestParam String email,
+                                  @Parameter(name = "회사", required = true)@RequestParam String organization) {
         return name + " " + email + " " + organization;
     }
 
