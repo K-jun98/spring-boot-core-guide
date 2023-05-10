@@ -3,8 +3,8 @@ package com.springboot.api.controller;
 
 import com.springboot.api.dto.MemberDto;
 import javax.servlet.http.HttpSession;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -48,8 +48,15 @@ public class ExampleController {
 
     // @SessionAttribute 사용 예
     @GetMapping("/sessioninfo")
-    public String sessionInfo(@SessionAttribute("username") String username,     HttpSession session) {
+    public String sessionInfo(@SessionAttribute("username") String username, HttpSession session) {
         System.out.println(session.getId());
         return "Username in session: " + username;
     }
+
+    @GetMapping("/users2")
+    public String createUser2(@ModelAttribute MemberDto memberDto) {
+        // 이 부분에서 실제 사용자를 생성하는 로직을 구현
+        return "member";
+    }
+
 }
